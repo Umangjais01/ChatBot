@@ -73,11 +73,11 @@ int main()
                     exit(0);
                 }
                 
-                else if(strcmp(ch, "who are you") == 0 || strcmp(ch, "tell me about yourself") == 0 || strcmp(ch, "about") == 0 ){
+                else if(strcmp(ch, "who are you") == 0 ) == 0 ){
                     cout<<"I'm a virtual assistant created by Umang Jaiswal !!!"<<endl;
                 }
 
-                else if(strcmp(ch, "how are you") == 0 || strcmp(ch, "whatsup") == 0 || strcmp(ch, "how is your day") == 0 ){
+                else if(strcmp(ch, "how are you") == 0 ){
                     cout<<"I'm good sir, tell me how can i help you.."<<endl;
                 }
 
