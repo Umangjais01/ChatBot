@@ -29,8 +29,8 @@ void wishme(){
 void datetime(){
     time_t now = time(0);
     char *dt = ctime(&now);
-    cout<<"The date and time is "<<endl
-        << dt <<endl;
+    cout<<"The date and time is "<<endl;
+    cout<<"    "<< dt <<endl;
 }
 
 int main()
@@ -47,7 +47,7 @@ int main()
 
     do
     {
-        cout<<"ENTER YOUR PASSWORD "<<endl;
+        cout<<"ENTER PASSWORD "<<endl;
 
         gets(password);
 
@@ -57,12 +57,12 @@ int main()
         if(strcmp(password, "Umang")==0){
             wishme();
             do{
-                cout<<endl<<"UMANG(BOT)-> How can i help you sir...."<<endl<<endl;
+                cout<<endl<<"    UMANG(BOT)-> How can i help you sir...."<<endl<<endl;
 
                 cout<<"Your query -> ";
                 gets(ch);
                 cout<<endl;
-                cout<<"   Umang(BOT) -> ";
+                cout<<"    Umang(BOT) -> ";
 
                 if(strcmp(ch, "hi") == 0 || strcmp(ch, "hey") == 0 || strcmp(ch, "hello") == 0 ){
                     cout<<"Hello sir....."<<endl;
@@ -73,7 +73,7 @@ int main()
                     exit(0);
                 }
                 
-                else if(strcmp(ch, "who are you") == 0 ) == 0 ){
+                else if(strcmp(ch, "who are you") == 0 ){
                     cout<<"I'm a virtual assistant created by Umang Jaiswal !!!"<<endl;
                 }
 
